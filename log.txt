@@ -1,0 +1,39 @@
+1>------ Début de la génération : Projet : GameTest, Configuration : Debug Win32 ------
+1>main.cpp
+1>LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'MSVCRT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+1>glfw3.lib(init.c.obj) : warning LNK4217: symbole défini localement ___stdio_common_vsprintf importé dans la fonction __glfwInputError
+1>glfw3.lib(wgl_context.c.obj) : warning LNK4049: symbole défini localement _free importé
+1>glfw3.lib(egl_context.c.obj) : warning LNK4217: symbole défini localement _free importé dans la fonction __glfwInitEGL
+1>glfw3.lib(monitor.c.obj) : warning LNK4049: symbole défini localement _free importé
+1>glfw3.lib(vulkan.c.obj) : warning LNK4049: symbole défini localement _free importé
+1>glfw3.lib(win32_window.c.obj) : warning LNK4049: symbole défini localement _free importé
+1>glfw3.lib(win32_joystick.c.obj) : warning LNK4217: symbole défini localement _free importé dans la fonction _pollJoystickState
+1>glfw3.lib(window.c.obj) : warning LNK4217: symbole défini localement _free importé dans la fonction _glfwDestroyWindow
+1>glfw3.lib(input.c.obj) : warning LNK4217: symbole défini localement _free importé dans la fonction _glfwSetInputMode
+1>glfw3.lib(win32_init.c.obj) : warning LNK4049: symbole défini localement _free importé
+1>glfw3.lib(win32_monitor.c.obj) : warning LNK4049: symbole défini localement _free importé
+1>glfw3.lib(context.c.obj) : warning LNK4217: symbole défini localement _strncmp importé dans la fonction __glfwRefreshContextAttribs
+1>glfw3.lib(egl_context.c.obj) : warning LNK4049: symbole défini localement _strncmp importé
+1>glfw3.lib(monitor.c.obj) : warning LNK4217: symbole défini localement _qsort importé dans la fonction _refreshVideoModes
+1>glfw3.lib(win32_joystick.c.obj) : warning LNK4049: symbole défini localement _qsort importé
+1>glfw3.lib(wgl_context.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(egl_context.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(monitor.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(vulkan.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(win32_window.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(win32_joystick.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(window.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(input.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(win32_init.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(win32_monitor.c.obj) : error LNK2001: symbole externe non résolu __imp__calloc
+1>glfw3.lib(context.c.obj) : error LNK2019: symbole externe non résolu __imp__strstr référencé dans la fonction __glfwStringInExtensionString
+1>glfw3.lib(win32_joystick.c.obj) : error LNK2001: symbole externe non résolu __imp__strstr
+1>glfw3.lib(context.c.obj) : error LNK2019: symbole externe non résolu __imp____stdio_common_vsscanf référencé dans la fonction __vsscanf_l
+1>glfw3.lib(win32_monitor.c.obj) : error LNK2019: symbole externe non résolu __imp__realloc référencé dans la fonction __glfwPlatformGetMonitors
+1>glfw3.lib(monitor.c.obj) : error LNK2019: symbole externe non résolu __imp___strdup référencé dans la fonction __glfwAllocMonitor
+1>glfw3.lib(win32_window.c.obj) : error LNK2001: symbole externe non résolu __imp___strdup
+1>glfw3.lib(win32_joystick.c.obj) : error LNK2001: symbole externe non résolu __imp___strdup
+1>MSVCRT.lib(chandler4gs.obj) : error LNK2019: symbole externe non résolu __except_handler4_common référencé dans la fonction __except_handler4
+1>C:\Users\ADB\source\repos\Addition\Debug\GameTest.exe : fatal error LNK1120: 6 externes non résolus
+1>Génération du projet "GameTest.vcxproj" terminée -- ÉCHEC.
+========== Génération : 0 a réussi, 1 a échoué, 0 mis à jour, 0 a été ignoré ==========
